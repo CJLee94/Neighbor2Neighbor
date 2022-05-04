@@ -24,6 +24,13 @@ This code was tested on:
 - Python 3.7
 - Pytorch 1.3
 
+```bash
+conda create -n neighbor2neighbor python=3.7
+conda activate neighbor2neighbor
+pip install oct-converter
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
+```
+
 ## Preparing Training Dataset
 
 Images in the training set are from the ImageNet validation set with size between 256x256 and 512x512 pixels.
